@@ -8,8 +8,8 @@ $(function () {
         $('.navbar .search .show-hide').show();
     });
     // Hide Search Box
-    $('.navbar .search .show-hide').click(function () {
-        $(this).hide();
+    $('.navbar .search .show-hide span').click(function () {
+        $('.navbar .search .show-hide').hide();
     });
     //Caching The Scroll Top Element
     $(window).scroll(function () {
